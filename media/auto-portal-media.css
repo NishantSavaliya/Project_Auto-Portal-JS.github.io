@@ -1,0 +1,597 @@
+@media (max-width:562px){
+
+/* ------------ header ------------------  */
+
+.header .toggle{
+      display: inline-block !important;
+}
+.tgl-menu{
+      display: none !important;
+}
+.tgl-menu li{
+      display: inline-block;
+      padding-left: 20px;
+      list-style: none;
+
+}
+.tgl-menu li a{
+      text-decoration: none;
+      color: #465166;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+}
+.header .tgl-menu li a:hover{
+      color: #ed6b00;
+}
+.hidden{
+      display: inline-block !important;
+}
+.header .h-menu{
+      display: none;
+      width: 50%;
+}
+.header .log{
+      margin-top: 10px !important;
+      width: 40% !important;
+      display: none;
+}
+
+
+/* ----------- content ------------ */
+
+.content{
+      width: 100%;
+      height: 50% !important;
+      background-image: url(../images/container-bg.webp);
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat !important;
+} 
+
+.content h4{
+      font-size: 1.5em !important;
+}
+.content h2{
+      font-size: 2.3em !important;
+}
+.content .info input{
+      height: 40px !important;
+      width: 80% !important;
+      font-size: 1em !important;
+}
+.content .info button{
+      display: none !important;
+}
+
+/* ------ cards ------- */
+
+.card-title{
+      margin-top: 0% !important;
+}
+.card-cont{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+.card{
+      width: 48% !important;
+      height: 75vh !important;
+      transition: 1s !important;
+      margin-top: 10px !important;
+      border-style: none !important;
+}
+.card h3{
+      font-size: 1.1em !important;
+      font-weight: 600 !important;
+}
+.card h5{
+      font-size: 1em !important;
+}
+.card p{
+      font-size: 0.9em !important;
+}
+
+/* ------------- category ---------- */
+
+.cat-btn button{
+      height: auto !important;
+      width: 70% !important;
+}
+
+.cat-btn button h5{
+     padding-top: 2% !important;
+     padding-left: 3% !important;
+}
+.cat-btn button p{
+      padding-top: 2% !important;
+      padding-left: 5% !important;
+}
+.cat-btn button:hover{
+      scale: 1.01 !important;
+}
+.sub-cat button{
+      display: none !important;
+}
+
+/* ----------------- sell car ------------------ */
+
+.crd-title{
+      margin-top: 0% !important;
+}
+.crd-cont{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+
+.crd{
+      width: 48% !important;
+      height: 70vh !important;
+      transition: 1s !important;
+      margin-top: 10px !important;
+}
+
+/* ---------new added------------- */
+
+.new-add .new-cont{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+.new{
+      width: 48% !important;
+      height: 40% !important;
+      transition: 1s !important;
+      margin-top: 10px !important;
+}
+.new h3 i{
+      display: none !important;
+}
+
+/* --------------- review ------------- */
+
+.rev-box{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+.info-box{
+      width: 80% !important;
+}
+
+.info-box h4{
+      display: none !important;
+}
+.info-box h2{
+      display: block !important;
+}
+.info-box .info-btn{
+      display: flex !important;
+      /* flex-wrap: wrap !important; */
+      gap: 4% !important;
+}
+.msg-box{
+      width: 95% !important;
+      height: auto !important;
+}
+.msg-box span .btn-2{
+      width: 150px !important;
+      left: 30% !important;
+}
+.rev-box .mb-3{
+      display: none !important;
+}
+.msg-box p{
+      display: none !important;
+}
+
+/* ------- contact ---------- */
+.cont{
+     height: 65vh !important;
+}
+.cont .cont-form{
+      padding-top: 0% !important;
+}
+.cont .cont-title p{
+      font-size: 1.8em !important;
+     padding-top: 2% !important;
+}
+.cont .cont-form input{
+      width: 70% !important;
+      margin-top: 0% !important;
+}
+.cont .cont-form textarea{
+      width: 70% !important;
+      height: 10% !important;
+      font-size: 0.9em !important;
+      padding-top: 1% !important;
+      padding-left: 1% !important;
+}
+.cont .cont-form button{
+      font-size: 1em !important;
+      height: 30px !important;
+      width: 90px !important;
+      margin-top: 0% !important;
+}
+
+/* ---- footer ---------- */
+
+.footer{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+.footer .ft-part{
+      width: 80% !important;
+}
+.footer .ft-part h3{
+      display: none !important;
+}
+.footer .ft-part h6{
+      display: none !important;
+}
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width:562px) and (max-width:768px){ 
+
+/* ----------- header ------------ */
+
+/* .header .h-menu{
+      width: 70% !important;
+      margin-left: 0% !important;
+}
+.header .menu li a{
+      padding-left: 5% !important;
+      font-size: 1.2em !important;
+}
+.header .log{
+      width: 25% !important;
+      margin-left: 2% !important;
+} 
+.header .log p{
+      height: 50px !important;
+      width: 150px !important;
+} */
+
+/* .header button{
+      display: inline-block !important;
+}
+.header .h-menu{
+      display: none;
+      width: 50%;
+} */
+
+.header .toggle{
+      display: inline-block !important;
+}
+.tgl-menu{
+      display: none !important;
+}
+.tgl-menu li{
+      display: inline-block;
+      padding-left: 20px;
+      list-style: none;
+
+}
+.tgl-menu li a{
+      text-decoration: none;
+      color: #465166;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+}
+.header .tgl-menu li a:hover{
+      color: #ed6b00;
+}
+.hidden{
+      display: inline-block !important;
+}
+.header .h-menu{
+      display: none;
+      width: 50%;
+}
+/* .header .log{
+      margin-top: 10px !important;
+      width: 40% !important;
+      display: none;
+} */
+.header .log{
+      width: 25% !important;
+}
+
+/* ------- content ------------ */
+.content{
+      height: 75vh !important;
+}
+.content .info input{
+      margin-top: 5% !important;
+      height: 40px !important;
+      width: 70% !important;
+}
+.content .info button{
+      height: 60px !important;
+      width: 70px !important;
+      margin-top: 8% !important;
+} 
+ .content .info .company img{
+      height: 80%;
+      width: 90%;
+}
+.content .info .cmp-7{
+      display: none;
+}
+.content .info .cmp-8{
+      display: none;
+}
+/* ------ cards ------- */
+
+.card-title{
+      margin-top: 0% !important;
+}
+.card-cont{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 5% !important;
+}
+.card{
+      width: 47% !important;
+      height: 75vh !important;
+      transition: 1s !important;
+      margin-top: 3% !important;
+      border-style: none !important;
+      border-radius: 20px !important;
+}
+.card h3{
+      font-size: 1.2em !important;
+      font-weight: 600 !important;
+}
+.card h5{
+      font-size: 1.1em !important;
+}
+.card p{
+      font-size: 1em !important;
+}
+
+/* ------------- category ---------- */
+
+.cat-btn button{
+      height: 50px !important;
+      width: 70% !important;
+}
+
+.cat-btn button h5{
+     padding-top: 0% !important;
+     padding-left: 7% !important;
+     font-size: 1.5em !important;
+}
+.cat-btn button p{
+      padding-top: 1% !important;
+      padding-left: 7% !important;
+      font-size: 1.3em !important;
+}
+.cat-btn button:hover{
+      scale: 1 !important;
+}
+.sub-cat button{
+      display: none !important;
+}
+
+/* ----------------- sell car ------------------ */
+
+.crd-title{
+      margin-top: 0% !important;
+}
+.crd-cont{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+
+.crd{
+      width: 48% !important;
+      height: 70vh !important;
+      transition: 1s !important;
+      margin-top: 10px !important;
+}
+
+/* ---------new added------------- */
+
+.new-add .new-cont{
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 4% !important;
+}
+.new{
+      width: 48% !important;
+      height: 40% !important;
+      transition: 1s !important;
+      margin-top: 15px !important;
+}
+.new h3 i{
+      display: none !important;
+}
+
+/* --------------- review ------------- */
+
+.rev-box{
+      margin: 3% 0%;
+      display: flex;
+      gap: 3%;
+}
+.info-box{
+      width: 40% !important;
+}
+.msg-box{
+      width: 55% !important;
+      height: 50%;
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      position: relative;
+}
+.mb-2{
+      display: none !important;
+}
+.mb-3{
+      display: none !important;
+}
+
+/* ------- contact ---------- */
+.cont{
+      height: 70vh !important;
+ }
+ .cont .cont-form{
+       padding-top: 0% !important;
+ }
+ .cont .cont-title p{
+       font-size: 1.8em !important;
+      padding-top: 2% !important;
+ }
+ .cont .cont-form input{
+       width: 70% !important;
+       margin-top: 0% !important;
+ }
+ .cont .cont-form textarea{
+       width: 70% !important;
+       height: 10% !important;
+       font-size: 0.9em !important;
+       padding-top: 1% !important;
+       padding-left: 1% !important;
+ }
+ .cont .cont-form button{
+       font-size: 1em !important;
+       height: 30px !important;
+       width: 90px !important;
+       margin-top: 0% !important;
+ }
+ 
+ /* -------- footer ------- */
+
+ .footer .ft-part h3{
+      display: none !important;
+}
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width:768px) and (max-width:992px){
+
+/* ----------- header ------------ */
+
+ .header .h-menu{
+      width: 70% !important;
+      margin-left: 0% !important;
+}
+.header .menu li a{
+      padding-left: 5% !important;
+      font-size: 1.2em !important;
+}
+.header .log{
+      width: 25% !important;
+} 
+.header .log p{
+      height: 50px !important;
+      width: 150px !important;
+} 
+
+/* --------- content --------------- */
+
+.content .info input{
+      margin-top: 5% !important;
+      height: 40px !important;
+      width: 70% !important;
+}
+.content .info .cmp-7{
+      display: none;
+}
+.content .info .cmp-8{
+      display: none;
+}
+
+/* ------------- category ---------- */
+
+
+.cat-btn button{
+      height: auto !important;
+}
+.sub-cat button{
+      display: none !important;
+}
+
+/* ------------ sell car ------------- */
+
+.crd{
+      height: 70vh!important;
+      border: 1px solid black;
+}
+
+/* ---------new added------------- */
+
+.new{
+      height: 75vh !important;
+}
+.new h3 i{
+      display: none !important;
+}
+
+/* --------------- review ------------- */
+
+.rev-box{
+      margin: 3% 0%;
+      display: flex;
+      gap: 3%;
+}
+.info-box{
+      width: 30% !important;
+}
+.msg-box{
+      width: 30% !important;
+      height: 45vh !important;
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      position: relative;
+}
+/* .mb-2{
+      display: none !important;
+} */
+.mb-3{
+      display: none !important;
+}
+
+/* ------- contact ---------- */
+
+.cont{
+      height: 75vh !important;
+ }
+ .cont .cont-form{
+      padding-top: 0% !important;
+}
+.cont .cont-title p{
+      font-size: 1.8em !important;
+     padding-top: 2% !important;
+}
+.cont .cont-form input{
+      width: 65% !important;
+      margin-top: 0% !important;
+}
+.cont .cont-form textarea{
+      width: 65% !important;
+      height: 10% !important;
+      font-size: 0.9em !important;
+      padding-top: 1% !important;
+      padding-left: 1% !important;
+}
+.cont .cont-form button{
+      font-size: 1em !important;
+      height: 30px !important;
+      width: 90px !important;
+      margin-top: 0% !important;
+}
+
+
+
+
+
+
+}
